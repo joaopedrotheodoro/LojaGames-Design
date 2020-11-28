@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "EEIg0FaN8e9DXc0H6y46yg5DVhCNzB7NjS8cDomwieLBeCgOIyok51Lj8xv98qCoJQ0Hxt1ILank9jB62GFtKQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\LojaGames\\LojaGames.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\bootstrap\\4.5.3\\bootstrap.4.5.3.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\jquery\\3.0.0\\jquery.3.0.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\popper.js\\1.16.1\\popper.js.1.16.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,66 @@
+﻿@page
+@model LojaGames.Pages.AdicionarModel
+@{
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/estilo.css" rel="stylesheet" />
+
+    <title>Adicionar Um Produto</title>
+</head>
+<body>
+    <div class="titulo-game">Adicionar um novo produto</div>
+    (Apenas administradores podem visualizar essa página)
+
+
+    <table class="titulo-destaque">
+        <tr>
+            <td>Nome do produto:</td>
+            <td><input type="text" name="nome" size="40"> <br /></td>
+        </tr>
+        <tr>
+            <td>ID:</td>
+            <td><input type="text" name="Id" size="5" maxlength="5" /> <br /></td>
+        </tr>
+        <tr>
+            <td>Imagem</td>
+            <td><img src="~/img/Adc.png" height="50" width="50" /><br /></td>
+        </tr>
+        <tr>
+            <td>Preço do produto :</td>
+            <td><input type="text" size="40"> <br /></td>
+        </tr>
+        <br />
+        <tr>
+            <td>Dimensões do produto :</td>
+            <td><input type="text" size="40"> <br /></td>
+        </tr>
+        <tr>
+            <td>Número do modelo :</td>
+            <td><input type="text" size="40"> <br /></td>
+        </tr>
+        <tr>
+            <td>Data de lançamento :</td>
+            <td><input type="text" size="40"> <br /></td>
+        </tr>
+        <tr>
+            <td>ASIN :</td>
+            <td><input type="text" size="40"> <br /></td>
+        </tr>
+    </table>
+
+    <div class="titulo-destaque">
+        <a class="navbar-brand" asp-area="" asp-action="Detalhes">
+            <button type="button" class="efeito efeito-2">Concluído</button>
+        </a>
+    </div>
+
+</body>
+</html>
